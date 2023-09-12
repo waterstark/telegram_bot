@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["waterstark <waterstark97@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiofiles = "^23.1.0"
+aiogram = "3.0.0b7"
+requests = "^2.31.0"
+yookassa = "^2.3.6"
+sqlalchemy = "^2.0.17"
+alembic = "^1.11.1"
+asyncpg = "^0.27.0"
+python-dotenv = "^1.0.0"
+greenlet = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
